@@ -5,12 +5,6 @@ public class Sequence {
     private String sequence;
     private String mutation;
 
-    public Sequence(int kodon, String sequence, String mutation) {
-        this.kodon = kodon;
-        this.sequence = sequence;
-        this.mutation = mutation;
-    }
-
     public Sequence() {
     }
 

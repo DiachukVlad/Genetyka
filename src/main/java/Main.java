@@ -21,7 +21,6 @@ public class Main {
 
     public Main() throws IOException {
         genes = ReadingHelper.getGenes("ttt.xlsx");
-
-
+        genes.forEach(System.out::println);
     }
 }
